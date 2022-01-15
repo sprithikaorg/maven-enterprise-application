@@ -19,5 +19,19 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
+<distributionManagement>
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Prithika Repository - Snapshot</name>
+		<url>http//172.31.0.162:8081/repository/mithun-snapshot/</url>
+	</snapshotRepository>
+	
+	<repository>
+		<id>nexus</id>
+		<name>Prithika Repository - Releases</name>
+		<url>http//172.31.0.162:8081/repository/mithun-releases/</url>
+	</repository>
+
+</distributionManagement>
   
 </project>
