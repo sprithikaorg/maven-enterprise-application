@@ -23,13 +23,13 @@
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>Prithika Repository - Snapshot</name>
-		<url>http//172.31.0.162:8081/repository/mithun-snapshot/</url>
+		<url>http//65.2.83.207:8081/repository/mithun-snapshot/</url>
 	</snapshotRepository>
 	
 	<repository>
 		<id>nexus</id>
 		<name>Prithika Repository - Releases</name>
-		<url>http//172.31.0.162:8081/repository/mithun-releases/</url>
+		<url>http//65.2.83.207:8081/repository/mithun-releases/</url>
 	</repository>
 
 </distributionManagement>
