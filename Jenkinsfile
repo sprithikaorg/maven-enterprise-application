@@ -11,13 +11,13 @@ node
     {
         sh "${mavenHome}/bin/mvn clean package"
     }
-    
+     /*
     stage('sonarqubereport')
     {
       sh "${mavenHome}/bin/mvn clean sonar:sonar"  
     }
     
-    /*
+   
     stage('uploadartifact')
     {
         sh "${mavenHome}/bin/mvn clean deploy"
