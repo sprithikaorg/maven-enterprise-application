@@ -4,7 +4,7 @@ node
     
     stage('CheckoutCode')  
     {
-        git branch: 'development', credentialsId: '9ede49a1-824d-4efd-aff5-ce7bda6d306f', url: 'https://github.com/sprithikaorg/maven-standalone-application.git'
+        git branch: 'development', credentialsId: '9ede49a1-824d-4efd-aff5-ce7bda6d306f', url: 'https://github.com/sprithikaorg/maven-enterprise-application.git'
     }
 
     stage('Build') 
