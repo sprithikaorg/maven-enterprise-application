@@ -17,10 +17,12 @@ node
       sh "${mavenHome}/bin/mvn clean sonar:sonar"  
     }
     
+    /*
     stage('uploadartifact')
     {
         sh "${mavenHome}/bin/mvn clean deploy"
     }
+    */ 
     
     stage('Deployintotomcat')
     {
